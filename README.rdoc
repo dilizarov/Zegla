@@ -1,4 +1,4 @@
-<h2>Boilerplate User authentication</h2>
+##Boilerplate User authentication
 
 <br>
 All interesting code is in:
