@@ -3,7 +3,7 @@
 <br>
 All interesting code is in:
 
-* [user.rb](User model)
+* [User model](app/models/user.rb)
 * User controller
 * Session controller
 * Session Helper (important)
