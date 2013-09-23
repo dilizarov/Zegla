@@ -16,7 +16,7 @@ want to run into issues while developing that you would in production (SQLite3 i
 in Gemfile, change `gem 'sqlite3'` to `gem 'pg'`.
 
 Furthermore, you'll need to update the [database.yml](config/database.yml) file.
-Empty the fily and copy the following:
+Empty the file and copy the following:
 
     development:
       adapter: postgresql
