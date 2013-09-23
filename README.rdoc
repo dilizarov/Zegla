@@ -1,4 +1,5 @@
-## Boilerplate User authentication
+Boilerplate User authentication
+-
 
 All interesting code is in:
 
