@@ -1,6 +1,6 @@
-Boilerplate User authentication
--
+<h2>Boilerplate User authentication</h2>
 
+<br>
 All interesting code is in:
 
 * User model
