@@ -10,4 +10,18 @@
  *
  *= require_self
  *= require_tree .
+ *= require bootstrap.min
  */
+
+.navbar {
+  background-color: rgb(241,241,241);
+}
+
+.navbar-brand {
+  margin-top: 8px;
+  font-size: 200%;
+}
+
+.form-control {
+  margin-top: 5px;
+}

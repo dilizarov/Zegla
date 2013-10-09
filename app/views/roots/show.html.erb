@@ -1,5 +1,3 @@
-Holla at me!
-
 <div class="coords"></div>
 
 <script type="application/javascript">
@@ -8,7 +6,7 @@ Holla at me!
       
       var options = {
         enableHighAccuracy: true,
-        timeout: 3000
+        timeout: 10000
       };
       
       function success(pos) {
@@ -28,4 +26,24 @@ Holla at me!
       $(".coords").append("Sorry, your browser does not support this functionality!\n We recommend Google Chrome!");
     }
   });
+  
+  var noOfClicks = 0;
+  
+  $(".navbar-form").on("keyup", function (data) {
+    noOfClicks++;
+    
+    var text = $('.form-control')[0].value;
+    
+    if (noOfClicks === 3) {
+      $.ajax({
+        url: '/users/search',
+        type: 'GET',
+        data: {text: text},
+        success: function(responseData) {
+          console.log(responseData);
+        }
+      });
+    }
+  })
+  
 </script>

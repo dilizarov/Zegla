@@ -25,4 +25,10 @@ class UsersController < ApplicationController
       redirect_to user_url(current_user)
     end
   end
+  
+  def search
+    users = User.search_by_name(params[:text])
+    
+    render :json => current_user, :status => 200 
+  end
 end
