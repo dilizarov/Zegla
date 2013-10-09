@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  sender: 1
+  accepter: 1
+  status: 1
+
+two:
+  sender: 1
+  accepter: 1
+  status: 1

@@ -2,6 +2,8 @@ class User < ActiveRecord::Base
   attr_accessible :password, :username
   attr_reader :password
 
+  has_one :location
+
     validates :username, :presence => true
     validates :username, :uniqueness => true
     validates :password_digest, :presence => { :message => "Password can't be blank" }

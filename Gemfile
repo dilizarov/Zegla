@@ -5,9 +5,8 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
 #the following is the gem for a PostgreSQL server. I use this when launching to the web.
-# gem 'pg' 
+gem 'pg' 
 
 
 # Gems used only for assets and not required
@@ -36,5 +35,6 @@ gem 'bcrypt-ruby', :require => 'bcrypt'
 # Deploy with Capistrano
 # gem 'capistrano'
 
-# To use debugger
-# gem 'debugger'
+#To use debugger
+gem 'debugger'
+gem 'geocoder'
