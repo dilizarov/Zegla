@@ -3,7 +3,7 @@ class CreateFriendships < ActiveRecord::Migration
     create_table :friendships do |t|
       t.integer :sender, :null => false
       t.integer :accepter, :null => false
-      t.integer :status, :null => false
+      t.boolean :status, :null => false
 
       t.timestamps
     end

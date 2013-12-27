@@ -15,7 +15,9 @@
 //= require bootstrap.min
 //= require underscore
 //= require backbone
-//= require zegla
+//= require search
+//= require location
+//= require requests
 //= require_tree ../templates
 //= require_tree ./models
 //= require_tree ./collections

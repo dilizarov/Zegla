@@ -25,3 +25,25 @@
 .form-control {
   margin-top: 5px;
 }
+
+.form {
+  position: relative;
+}
+
+.names {
+  position: absolute;
+  padding-right: 300px;
+  background-color: white;
+  z-index: 9999;
+  left: 80px;
+  top: 60px;
+}
+
+.adduser {
+  float: right;
+}
+
+.userresult {
+  padding: 8px;
+  float: left;
+}

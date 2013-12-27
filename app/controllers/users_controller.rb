@@ -29,6 +29,6 @@ class UsersController < ApplicationController
   def search
     users = User.search_by_name(params[:text])
     
-    render :json => current_user, :status => 200 
+    render :json => users, :status => 200 
   end
 end

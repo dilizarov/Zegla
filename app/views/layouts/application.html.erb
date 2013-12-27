@@ -8,7 +8,6 @@
 </head>
 <body>
   
-  
   <nav class="navbar navbar-default" role="navigation">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -20,14 +19,16 @@
       <a class="navbar-brand" href="#">Zegla</a>
     </div>
     
-    
     <% if current_user %>
     <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <div class="form">
       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
           <input type="text" class="form-control" size="40" placeholder="Search for friends">
         </div>
       </form>
+      <div class="names"></div>
+      </div>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
